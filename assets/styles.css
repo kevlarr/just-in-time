@@ -148,6 +148,32 @@ main {
   text-align: center;
 }
 
+.bar.blue.contact {
+  flex-direction: column;
+  font-size: 18px;
+  height: 200px;
+  justify-content: space-evenly;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.contact-email {
+  border-bottom: 1px solid;
+  border-color: #3d9be9;
+  text-decoration: none;
+  transition:  border-color 0.15s;
+}
+
+.contact-email:hover {
+  border-color: #fff;
+  transition:  border-color 0.15s;
+}
+
+.presskit {
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+}
+
 /**
  * Footer
  */
