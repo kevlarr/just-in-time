@@ -45,11 +45,35 @@ header {
   height: 44px;
 }
 
+.header-banner {
+    position: relative;
+}
+
 .header-banner-img {
   height: 422px;
   object-fit: cover;
   object-position: 50% 50%;
   width: 980px;
+}
+
+.header-banner-rating {
+    bottom: 10px;
+    height: 68px;
+    left: 4px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    position: absolute;
+    width: 131px;
+}
+
+.header-caption {
+    bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2em;
+    position: absolute;
+    right: 5px;
+    width: 400px;
 }
 
 /**
