@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Avenir Light", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Header
+ */
+
+header {
+  background: linear-gradient(#08072d, #241653 40%, #241653 45%,  #29b4fc 90%);
+}
+
+.header-column {
+  margin: 0 auto;
+  width: 980px;
+}
+
+.logo-link {
+  display: inline-block;
+  padding: 15px;
+}
+
+.header-logo-img {
+  width: 250px;
+}
+
+.vendor-logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vendor-link:nth-child(2) {
+  transform: translatex(-23%);
+}
+
+.vendor-logo {
+  height: 48px;
+}
+
+.vendor-logo.playstation {
+  height: 44px;
+}
+
+.header-banner-img {
+  height: 422px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  width: 980px;
+}
+
+/**
+ * Main
+ */
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.bar.black.trailer {
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.trailer-video {
+  height: 555px;
+  margin-bottom: 20px;
+}
+
+.bar {
+  display: flex;
+  justify-content: center;
+}
+
+.bar.black {
+  background: #08072d;
+  flex-direction: row-reverse;
+}
+
+.bar.blue {
+  background: #3d9be9;
+}
+
+.bar-title {
+  font-size: 38px;
+  font-weight: 900;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.bar.black .bar-title,
+.bar.black .callout {
+  color: #6bbaff;
+}
+
+.caption {
+  font-size: 34px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.panel {
+  display: flex;
+  width: 500px;
+}
+
+.preview-img {
+  height: 500px;
+  object-fit: cover;
+  width: 500px;
+}
+
+.text-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+/**
+ * Footer
+ */
