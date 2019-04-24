@@ -177,3 +177,19 @@ main {
 /**
  * Footer
  */
+
+footer {
+}
+
+.footer-links {
+  background: #38393c;
+  display: flex;
+  font-size: 15px;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.footer-buffer {
+  background: #010202;
+  height: 50px;
+}
